@@ -37,6 +37,7 @@ namespace md5_ödev
         {
             string hex7 = "";
             oku("text.txt");
+            Console.Write("tekrar sayısı giriniz:");
             int tekrar = Convert.ToInt32(Console.ReadLine());
             for(int i = 0; i < tekrar; i++)
             {
